@@ -46,4 +46,12 @@ List<ProjectUtils> projectUtils = [
         'This is my portfolio by using flutter, source code is also available, check below.',
     links: 'https://github.com/preksha-makwana',
   ),
+  ProjectUtils(
+    banners: 'assets/imgs/05.png',
+    icons: 'assets/imgs/react-native.png',
+    titles: 'Pizzaiolo App',
+    description:
+    'Maintained and enhanced the Pizzaiolo app, a Canadian pizza delivery and pickup platform built with React Native (iOS & Android). Implemented UI/UX improvements, optimized performance, and ensured smooth ordering for gourmet pizza customization, delivery, and pickup—similar to Domino’s app.',
+    links: 'https://github.com/preksha-makwana',
+  ),
 ];

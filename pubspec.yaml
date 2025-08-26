@@ -53,7 +53,10 @@ flutter:
     - assets/icons/
     - assets/gif/
     - assets/icons/database.svg
+    - assets/file/MYCV_old.pdf
     - assets/file/MYCV.pdf
+    - assets/file/MyResume.pdf
+
 
   fonts:
     - family: Montserrat

@@ -5,7 +5,7 @@ String yourname = "I'm Preksha Makwana,";
 
 String animationtxt1 = " Mobile Application Developer";
 String animationtxt2 = " Flutter Developer";
-String animationtxt3 = " Web Developer";
+String animationtxt3 = " React-Native Developer";
 
 //
 String contactHeadding = "Let’s try my service now!";

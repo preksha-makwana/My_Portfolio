@@ -43,6 +43,13 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
           Space.y(3.w)!,
           OutlinedButton(
             onPressed: () => openURL(gitHub),
+            style: OutlinedButton.styleFrom(
+              side: BorderSide(
+                color: Theme.of(context).brightness == Brightness.dark
+                    ? Colors.white   // White border in dark mode
+                    : Colors.black,  // Black border in light mode
+              ),
+            ),
             child: const Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
