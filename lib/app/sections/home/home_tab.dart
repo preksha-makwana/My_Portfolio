@@ -22,18 +22,18 @@ class HomeTab extends StatelessWidget {
             padding: EdgeInsets.only(left: screenWidth * 0.10, top: screenHeight * 0.10),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                // Your other widgets...
-
-                ColorChageButton(
-                  text: 'download cv',
-                  onTap: () {
-                    html.window.open(resume, "pdf");
-                  },
-                ),
-
-                // More of your other widgets...
-              ],
+              // children: [
+              //   // Your other widgets...
+              //
+              //   // ColorChageButton(
+              //   //   text: 'download cv',
+              //   //   onTap: () {
+              //   //     html.window.open(resume, "pdf");
+              //   //   },
+              //   // ),
+              //
+              //   // More of your other widgets...
+              // ],
             ),
           ),
         ],
